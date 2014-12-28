@@ -8,9 +8,9 @@ if hash Rscript 2>/dev/null; then
       SCRIPT=`which Rscript`
       echo "Installing..."
       cd $INSTALL_DIR
-      echo "#!$SCRIPT" > $INSTALL_DIR/ezplot.R
-      curl -s https://raw.githubusercontent.com/vtphan/ezplot/master/ezplot.R >> $INSTALL_DIR/ezplot.R
-      chmod u+x ezplot.R
+      echo "#!$SCRIPT" > $INSTALL_DIR/ezplot
+      curl -s https://raw.githubusercontent.com/vtphan/ezplot/master/ezplot >> $INSTALL_DIR/ezplot
+      chmod u+x ezplot
 
       if [[ ":$PATH:" == *":$INSTALL_DIR:"* ]]; then
          echo "$INSTALL_DIR is in PATH"
@@ -19,7 +19,7 @@ if hash Rscript 2>/dev/null; then
          echo "export PATH=$PATH:$INSTALL_DIR" >> $HOME/.bashrc
          source $HOME/.bashrc
       fi
-      echo "ezplot.R is installed in $INSTALL_DIR.  Try ezplot.R in a new terminal."
+      echo "ezplot is installed in $INSTALL_DIR.  Run ezplot in a new terminal."
    else
       echo "curl is not installed. Try manual installation."
    fi
