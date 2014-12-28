@@ -3,7 +3,7 @@ ezplot takes as input a column-formated file and produces several plots. The pur
 REQUIREMENT
 ===========
 
-- Rscript / R
+- Rscript (front end of R)
 - ggplot2 library.
 
 QUICK INSTALLATION
