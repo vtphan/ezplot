@@ -39,7 +39,7 @@ x, y, and c are column names as appeared in the header of data.csv.
 EXAMPLES
 ========
 
-Compare petal width and length of iris data.  The output is 4 images.
+Compare petal width and length from [the iris dataset](http://en.wikipedia.org/wiki/Iris_flower_data_set).  The output is 4 images.
 ```
    ezplot iris.csv Petal.Width Petal.Length
 ```
