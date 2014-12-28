@@ -11,7 +11,7 @@ QUICK INSTALLATION
 
 - Require (i) bash shell, (ii) curl
 - Download install script: [install.sh](install.sh)
-- From command prompt, run "bash install.sh"
+- From command prompt, run "bash install.sh".  This will put ezplot.R into your $HOME/bin directory, make it executable and add the directory to your PATH so you can access ezplot.R directly from any directory.
 
 MANUAL INSTALLATION
 ===================
