@@ -1,13 +1,15 @@
 INSTALL_DIR="$HOME/bin"
-if hash R 2>/dev/null; then
+if hash Rscript 2>/dev/null; then
    if hash curl 2>/dev/null; then
+      script="which Rscript"
       if [ ! -d $INSTALL_DIR ]; then
          echo "$INSTALL_DIR does not exist.  Create $INSTALL_DIR"
          mkdir $INSTALL_DIR
       fi
       echo "Download and install R scripts."
       cd $INSTALL_DIR
-      curl -s https://raw.githubusercontent.com/vtphan/plot-tutorial/master/utilities/ezplot.R > $INSTALL_DIR/ezplot.R
+      echo "#!" script > $INSTALL_DIR/ezplot.R
+      curl -s https://raw.githubusercontent.com/vtphan/ezplot/master/ezplot.R >> $INSTALL_DIR/ezplot.R
       chmod u+x ezplot.R
 
       if [[ ":$PATH:" == *":$INSTALL_DIR:"* ]]; then
