@@ -89,7 +89,6 @@ if (length(args) < 2 || length(args) > 4) {
    if (length(args) > 2) {
       catx <- tail(class(data[,args[2]]), n=1)
       caty <- tail(class(data[,args[3]]), n=1)
-      cat(catx, caty, "\n")
       if ((catx %in% c("numeric","integer")) && (caty %in% c("numeric", "integer"))) {
          QQ()
       } else if (!(catx %in% c("numeric","integer")) && (caty %in% c("numeric", "integer"))) {

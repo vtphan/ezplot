@@ -3,8 +3,8 @@ ezplot takes as input a column-formated file and produces several plots. The pur
 REQUIREMENT
 ===========
 
-- R
-- ggplot2
+- Rscript / R
+- ggplot2 library.
 
 QUICK INSTALLATION
 ==================
@@ -36,3 +36,15 @@ Plot x versus y with optional (c) categorical variable.   Possible comparisons: 
 
 x, y, and c are column names as appeared in the header of data.csv.
 
+EXAMPLES
+========
+
+Compare petal width and length of iris data.  The output is 4 images.
+```
+   ezplot.R iris.csv Petal.Width Petal.Length
+```
+
+Categorized comparisons in terms of species.
+```
+   ezplot.R iris.csv Petal.Width Petal.Length Species
+```
