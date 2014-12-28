@@ -76,8 +76,8 @@ library(tools)
 args<-commandArgs(TRUE)
 
 if (length(args) < 2 || length(args) > 4) {
-   cat("Plot one variable:\n\tezplot.R data.csv x [c]\n")
-   cat("Plot two variables:\n\tezplot.R data.csv x y [c]\n")
+   cat("Plot one variable:\n\tezplot data.csv x [c]\n")
+   cat("Plot two variables:\n\tezplot data.csv x y [c]\n")
    cat("c is an optional categorical variable.\n")
 } else {
    sep <- "\t"

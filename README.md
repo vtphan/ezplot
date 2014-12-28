@@ -25,13 +25,13 @@ USAGE
 
 Plot of distributions of one variable (x).   Categorical variable (c) is optional.
 ```
-   ezplot.R data.csv x [c]
+   ezplot data.csv x [c]
 ```
 
 Plot x versus y with optional (c) categorical variable.   Possible comparisons: (i) quantitative versus quantitative, (ii) categorical versus quantitative.
 
 ```
-   ezplot.R data.csv x y [c]
+   ezplot data.csv x y [c]
 ```
 
 x, y, and c are column names as appeared in the header of data.csv.
@@ -41,10 +41,10 @@ EXAMPLES
 
 Compare petal width and length of iris data.  The output is 4 images.
 ```
-   ezplot.R iris.csv Petal.Width Petal.Length
+   ezplot iris.csv Petal.Width Petal.Length
 ```
 
 Categorized comparisons in terms of species.
 ```
-   ezplot.R iris.csv Petal.Width Petal.Length Species
+   ezplot iris.csv Petal.Width Petal.Length Species
 ```
