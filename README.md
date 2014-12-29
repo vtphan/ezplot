@@ -23,11 +23,12 @@ MANUAL INSTALLATION
 USAGE
 -----
 
-1. Plot of distributions of one variable (x).   Categorical variable (c) is optional.
+(1) Plot of distributions of one variable (x).   Categorical variable (c) is optional.
 ```
    ezplot data.csv x [c]
 ```
-2. Plot x versus y with optional (c) categorical variable.   Possible comparisons: (i) quantitative versus quantitative, (ii) categorical versus quantitative.
+
+(2) Plot x versus y with optional (c) categorical variable.   Possible comparisons: (i) quantitative versus quantitative, (ii) categorical versus quantitative.
 ```
    ezplot data.csv x y [c]
 ```
