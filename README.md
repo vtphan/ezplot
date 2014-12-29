@@ -28,7 +28,7 @@ USAGE
    ezplot data.csv x [c]
 ```
 
-(2) Plot a quantitative/categorical variable (x) against a quantitative variable (y), with an optional categorical variable c.
+(2) Plot a [quantitative/categorical](http://www.usablestats.com/lessons/datatypes) variable (x) against a quantitative variable (y), with an optional categorical variable (c).
 ```
    ezplot data.csv x y [c]
 ```
