@@ -49,5 +49,6 @@ Categorized comparisons in terms of species.
    ezplot iris.csv Petal.Width Petal.Length Species
 ```
 
+Note that Petal.Width, Petal.Length, and Species are column names, specified in [the dataset](data/iris.csv).
 The output is output1.png, output2.png, output3.png, and output4.png.  Some of these figures make more sense than the others.
 
