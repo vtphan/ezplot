@@ -1,27 +1,27 @@
-ezplot takes as input a column-formated file and produces several plots. The purpose is to provide very quick analyses of data.
+ezplot is a command-line tool, written in R.  It takes as input a column-formated file and produces several figures/charts. It is meant to facilitate quick analyses of data.
 
 REQUIREMENT
-===========
+-----------
 
 - Rscript (front end of R)
 - ggplot2 library.
 
 QUICK INSTALLATION
-==================
+------------------
 
 - Require (i) bash shell, (ii) curl
 - Download install script: [install.sh](install.sh)
 - From command prompt, run "bash install.sh".  This will put ezplot.R into your $HOME/bin directory, make it executable and add the directory to your PATH so you can access ezplot.R directly from any directory.
 
 MANUAL INSTALLATION
-===================
+-------------------
 
 - Download ezplot.R, edit the first line to reflect the correct location of R
 - chmod u+x ezplot.R
 - Move ezplot.R in your executable PATH.
 
 USAGE
-=====
+-----
 
 Plot of distributions of one variable (x).   Categorical variable (c) is optional.
 ```
@@ -37,7 +37,7 @@ Plot x versus y with optional (c) categorical variable.   Possible comparisons: 
 x, y, and c are column names as appeared in the header of data.csv.
 
 EXAMPLES
-========
+--------
 
 Compare petal width and length from [the iris dataset](http://en.wikipedia.org/wiki/Iris_flower_data_set).
 ```
