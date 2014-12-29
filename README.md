@@ -34,7 +34,7 @@ Plot x versus y with optional (c) categorical variable.   Possible comparisons: 
    ezplot data.csv x y [c]
 ```
 
-x, y, and c are column names as appeared in the header of data.csv.
+x, y, and c are column names as appeared in the header of data.csv.  The data file should be in comma-separated format (with .csv extension) or tab-separated format (.tsv extension).
 
 EXAMPLES
 --------
