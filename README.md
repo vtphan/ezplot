@@ -16,9 +16,9 @@ QUICK INSTALLATION
 MANUAL INSTALLATION
 -------------------
 
-- Download ezplot, edit the first line to reflect the correct location of R
+- Download ezplot, edit the first line to reflect the correct location of Rscript.
 - chmod u+x ezplot
-- Move ezplot.R into a directory in your executable PATH.  Alternately, you can use Rscript to run ezplot.
+- Move ezplot into a directory in your executable PATH.  Alternately, you can use Rscript to run ezplot.
 
 USAGE
 -----
