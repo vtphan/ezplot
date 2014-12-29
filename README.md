@@ -28,7 +28,6 @@ USAGE
    ezplot data.csv x [c]
 ```
 2. Plot x versus y with optional (c) categorical variable.   Possible comparisons: (i) quantitative versus quantitative, (ii) categorical versus quantitative.
-
 ```
    ezplot data.csv x y [c]
 ```
