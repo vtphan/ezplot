@@ -42,6 +42,10 @@ Compare petal width and length from [the iris dataset](http://en.wikipedia.org/w
 ```
    ezplot iris.csv Petal.Width Petal.Length
 ```
+![output1.png](images/21.png)
+![output2.png](images/22.png)
+![output3.png](images/23.png)
+![output4.png](images/24.png)
 
 Categorized comparisons in terms of species.
 ```
