@@ -44,10 +44,10 @@ Compare petal width and length from [the iris dataset](http://en.wikipedia.org/w
 ```
 This will create 4 plots to present these two variables in 4 different perspectives.
 
-<img src="images/31.png" width="400">
-<img src="images/32.png" width="400">
-<img src="images/33.png" width="400">
-<img src="images/34.png" width="400">
+<img src="images/31.png" width="410">
+<img src="images/32.png" width="410">
+<img src="images/33.png" width="410">
+<img src="images/34.png" width="410">
 
 Categorized comparisons in terms of species.
 ```
@@ -55,10 +55,10 @@ Categorized comparisons in terms of species.
 ```
 This will create 4 plots, classified into different "Species", to present the two variables in 4 different perspectives.
 
-<img src="images/21.png" width="250">
-<img src="images/22.png" width="250">
-<img src="images/23.png" width="250">
-<img src="images/24.png" width="250">
+<img src="images/21.png" width="410">
+<img src="images/22.png" width="410">
+<img src="images/23.png" width="410">
+<img src="images/24.png" width="410">
 
 Note that Petal.Width, Petal.Length, and Species are column names, specified in [the dataset](data/iris.csv).
 The output is output1.png, output2.png, output3.png, and output4.png.  Some of these figures make more sense than the others.
