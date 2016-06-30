@@ -44,10 +44,10 @@ Compare petal width and length from [the iris dataset](http://en.wikipedia.org/w
 ```
 This will create 4 plots to present these two variables in 4 different perspectives.
 
-<img src="images/31.png" width="250">
-<img src="images/32.png" width="250">
-<img src="images/33.png" width="250">
-<img src="images/34.png" width="250">
+<img src="images/31.png" width="300">
+<img src="images/32.png" width="300">
+<img src="images/33.png" width="300">
+<img src="images/34.png" width="300">
 
 Categorized comparisons in terms of species.
 ```
