@@ -44,10 +44,10 @@ Compare petal width and length from [the iris dataset](http://en.wikipedia.org/w
 ```
 This will create 4 plots to present these two variables in 4 different perspectives.
 
-![output1.png](images/31.png =200px)
-![output2.png](images/32.png =200px)
-![output3.png](images/33.png =200px)
-![output4.png](images/34.png =200px)
+![output1.png](images/31.png =200x)
+![output2.png](images/32.png =200x)
+![output3.png](images/33.png =200x)
+![output4.png](images/34.png =200x)
 
 Categorized comparisons in terms of species.
 ```
@@ -55,10 +55,10 @@ Categorized comparisons in terms of species.
 ```
 This will create 4 plots, classified into different "Species", to present the two variables in 4 different perspectives.
 
-![output1.png](images/21.png =200px)
-![output2.png](images/22.png =200px)
-![output3.png](images/23.png =200px)
-![output4.png](images/24.png =200px)
+![output1.png](images/21.png =200x)
+![output2.png](images/22.png =200x)
+![output3.png](images/23.png =200x)
+![output4.png](images/24.png =200x)
 
 
 Note that Petal.Width, Petal.Length, and Species are column names, specified in [the dataset](data/iris.csv).
